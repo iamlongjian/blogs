@@ -75,7 +75,7 @@
       put() {
         axios.put(`https://vueblogs-bca09.firebaseio.com/posts/${this.id}.json`, this.blog)  //因编辑的是指定的一条数据,所以要指定好地址
           .then((res) => {
-            this.$router.push({path:`/show/${this.id}`,query:{editAlert:'编辑成功~'}})
+            this.$router.push({path:`/show/${this.id}`,query:{alert:'编辑成功~'}})
           })
       }
     },

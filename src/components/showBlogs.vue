@@ -2,7 +2,6 @@
   <!--  v-theme为自定义指令-->
   <div id="show-blogs" class="container">
     <Alert v-if="alert" :msg='alert'></Alert>
-    <Delete v-if="delAlert" :msg='delAlert'></Delete>
     <h1 class="title text-center"><i class="el-icon-service"></i></h1>
     <div class="input-group">
       <el-input placeholder="搜索" v-model="search" clearable></el-input>
@@ -27,7 +26,6 @@
 <script>
   import axios from 'axios'
   import Alert from './Alert.vue'
-  import Delete from './Delete.vue'
   
 
   export default {
@@ -38,11 +36,9 @@
         num: 2,
         // Add传递过来的值
         alert:'',
-        delAlert:'',
-        editAlert:''
       }
     },
-    components:{Alert,Delete},
+    components:{Alert},
     computed: {
       // 搜索功能1
       filterBlog() {   //计算属性,需要交给V-for 便利循环
@@ -98,8 +94,6 @@
     created() {
       if(this.$route.query.alert){
         this.alert = this.$route.query.alert
-      }else if(this.$route.query.delAlert){
-        this.delAlert = this.$route.query.delAlert
       }
       this.fetchData()
     }

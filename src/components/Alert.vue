@@ -9,7 +9,7 @@
       const h = this.$createElement;
 
         this.$notify({
-          title: '标题名称',
+          title: '提示信息',
           message: h('b', { style: 'color: teal'}, this.msg)
         });
     },

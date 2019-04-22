@@ -1,6 +1,6 @@
 <template>
   <div id="blogDetails">
-    <Et v-if="editAlert" :msg="editAlert"></Et>
+    <Alert v-if="alert" :msg='alert'></Alert>
     <div class="row">
       <div class="col-md-12 col-sm-12">
         <h4 id="title">{{blog.title}}</h4>
@@ -37,19 +37,19 @@
 
 <script>
 import axios from "axios";
-import Et from "./editTip.vue";
+import Alert from "./Alert";
 export default {
   data() {
     return {
       id: this.$route.params.id,
       blog: {}, //因为这是博客详情,所以拿到的是单条的博客信息
-      editAlert:''
+      alert:''
     };
   },
-  components: { Et },
+  components: { Alert },
   created() {
-    if (this.$route.query.editAlert) {
-      this.editAlert = this.$route.query.editAlert;
+    if (this.$route.query.alert) {
+      this.alert = this.$route.query.alert;
     }
     axios
       .get(`https://vueblogs-bca09.firebaseio.com/posts/${this.id}.json`) //注意地址的格式
@@ -72,7 +72,7 @@ export default {
           let timeoutId = setTimeout(() => {
             this.$router.push({
               path: "/show",
-              query: { delAlert: "删除成功" }
+              query: { alert: "删除成功" }
             });
             location.reload();
           }, 500);

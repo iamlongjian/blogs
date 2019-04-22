@@ -22,34 +22,34 @@ npm run dev
 
 ### 截图
 #### 首页
-[![Eklc0U.md.png](https://s2.ax1x.com/2019/04/22/Eklc0U.md.png)](https://imgchr.com/i/Eklc0U)
+![EklLAe.png](https://s2.ax1x.com/2019/04/22/EklLAe.png)
 
 #### 搜索功能(实时刷新)
-[![Eklr60.md.png](https://s2.ax1x.com/2019/04/22/Eklr60.md.png)](https://imgchr.com/i/Eklr60)
+![Eklv9A.png](https://s2.ax1x.com/2019/04/22/Eklv9A.png)
 
 #### 添加博客页面
-[![EklDlq.md.png](https://s2.ax1x.com/2019/04/22/EklDlq.md.png)](https://imgchr.com/i/EklDlq)
+![Eklx1I.png](https://s2.ax1x.com/2019/04/22/Eklx1I.png)
 
 #### 页面底部，添加的内容可实时预览
-[![EklsXV.md.png](https://s2.ax1x.com/2019/04/22/EklsXV.md.png)](https://imgchr.com/i/EklsXV)
+![Eklzct.png](https://s2.ax1x.com/2019/04/22/Eklzct.png)
 
 #### 添加成功后，可在首页看到，并且有消息提示
-[![Ekl6mT.md.png](https://s2.ax1x.com/2019/04/22/Ekl6mT.md.png)](https://imgchr.com/i/Ekl6mT)
+![Ek19nf.png](https://s2.ax1x.com/2019/04/22/Ek19nf.png)
 
 #### 进入博客详情,有编辑按钮、删除按钮
-[![Eklg7F.md.png](https://s2.ax1x.com/2019/04/22/Eklg7F.md.png)](https://imgchr.com/i/Eklg7F)
+![Ek1CB8.png](https://s2.ax1x.com/2019/04/22/Ek1CB8.png)
 
 #### 详情底部 更多文章信息
-[![EklWtJ.md.png](https://s2.ax1x.com/2019/04/22/EklWtJ.md.png)](https://imgchr.com/i/EklWtJ)
+![Ek1PHS.png](https://s2.ax1x.com/2019/04/22/Ek1PHS.png)
 
 #### 编辑页面(异步请求博客内容,获取成功后有消息提示)
-[![EklRk4.md.png](https://s2.ax1x.com/2019/04/22/EklRk4.md.png)](https://imgchr.com/i/EklRk4)
+![Ek1Ahj.png](https://s2.ax1x.com/2019/04/22/Ek1Ahj.png)
 
 #### 修改完成(修改了原有的标题)
-[![Ekl4pR.md.png](https://s2.ax1x.com/2019/04/22/Ekl4pR.md.png)](https://imgchr.com/i/Ekl4pR)
+![Ek1Ahj.png](https://s2.ax1x.com/2019/04/22/Ek1mj0.png)
 
 #### 点击删除按钮(询问是否删除,点击确定则删除,取消则返回当前页面并提示“已取消删除”)
-[![Eklfh9.md.png](https://s2.ax1x.com/2019/04/22/Eklfh9.md.png)](https://imgchr.com/i/Eklfh9)
+![Ek1Ahj.png](https://s2.ax1x.com/2019/04/22/Ek1ecq.png)
 
 #### 删除成功 首页原有博客已经被删除,并且有消息提示。
-[![Ekl511.md.png](https://s2.ax1x.com/2019/04/22/Ekl511.md.png)](https://imgchr.com/i/Ekl511)
+![Ek1Ahj.png](https://s2.ax1x.com/2019/04/22/Ek1Z3n.png)
